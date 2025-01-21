@@ -7,7 +7,7 @@ def format_string(name, age):
     Returns:
         str: Formatted string
     """
-    return (f"My name is {name} and I am {age} years old")
+    pass
 
 def conditional_check(number):
     """
@@ -17,12 +17,7 @@ def conditional_check(number):
     Returns:
         str: "Greater", "Lesser", or "Equal"
     """
-    if number > 10:
-        return ("Greater")
-    elif number < 10:
-        return ("Lesser")
-    else:
-        return ("Equal")
+    pass
 
 def loop_sum(n):
     """
@@ -32,12 +27,7 @@ def loop_sum(n):
     Returns:
         int: Sum of numbers
     """
-    sum = 0
-    for n in range(1,n+1):
-        sum = sum + n
-    
-    return (sum)
-
+    pass
 
 def list_operations(numbers):
     """
@@ -47,8 +37,7 @@ def list_operations(numbers):
     Returns:
         tuple: (sum, max, min)
     """
-    return (sum(numbers),max(numbers),min(numbers))
-
+    pass
 
 def dict_operations(students_dict):
     """
@@ -58,12 +47,7 @@ def dict_operations(students_dict):
     Returns:
         list: Names of students with scores > 80
     """
-    names=[]
-    for name, score in students_dict.items():
-        if score > 80:
-            names.append(name)
-
-    return (names)
+    pass
 
 def set_operations(list1, list2):
     """
@@ -74,9 +58,7 @@ def set_operations(list1, list2):
     Returns:
         set: Common elements
     """
-    set1 = set(list1)
-    set2 = set(list2)
-    return(set1.intersection(set2))
+    pass
 
 def arithmetic_ops(a, b):
     """
@@ -87,19 +69,7 @@ def arithmetic_ops(a, b):
     Returns:
         dict: Results of arithmetic operations
     """
-    sum = a+b
-    difference = a-b
-    product = a*b
-    quotient = a/b
-
-    dict = {
-        "sum":sum,
-        "difference":difference,
-        "product":product,
-        "quontient":quotient
-        }
-
-    return (dict)
+    pass
 
 def logical_ops(x, y):
     """
